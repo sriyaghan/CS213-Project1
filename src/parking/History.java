@@ -14,15 +14,6 @@ public class History {
     private History next;
 
     /**
-     * Create a node holding the given parking activity with no next node.
-     * @param parking the completed parking activity.
-     */
-    public History(Parking parking) {
-        this.parking = parking;
-        this.next = null;
-    }
-
-    /**
      * Create a node holding the given parking activity and next node.
      * @param parking the completed parking activity.
      * @param next the next node in the list.

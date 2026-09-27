@@ -67,7 +67,7 @@ public class Timestamp implements Comparable<Timestamp> {
      * @param otherValue the value of the other timestamp.
      * @return -1 if value is smaller, 1 if value is larger, 0 if equal.
      */
-    private static int compareValues(int value, int otherValue) {
+    private static int valueOrder(int value, int otherValue) {
         if (value < otherValue) {
             return BEFORE;
         }
@@ -85,21 +85,15 @@ public class Timestamp implements Comparable<Timestamp> {
      * @param expected the expected result of compareTo().
      * @return the description and the result of the test case.
      */
-    private static String testCompareTo(String testCase, Timestamp first,
-                                      Timestamp second, int expected) {
+    private static String compareToTestResult(String testCase,
+                                              Timestamp first,
+                                              Timestamp second,
+                                              int expected) {
         int actual = first.compareTo(second);
         String result = (actual == expected) ? "PASSED" : "FAILED";
         return testCase + ": (" + first + ").compareTo("
                 + second + ") returns " + actual + "; expected "
                 + expected + " --> " + result;
-    }
-
-    /**
-     * Get the date of the timestamp.
-     * @return the date.
-     */
-    public Date getDate() {
-        return date;
     }
 
     /**
@@ -152,9 +146,9 @@ public class Timestamp implements Comparable<Timestamp> {
             return dateOrder;
         }
         if (hour != timestamp.hour) {
-            return compareValues(hour, timestamp.hour);
+            return valueOrder(hour, timestamp.hour);
         }
-        return compareValues(minute, timestamp.minute);
+        return valueOrder(minute, timestamp.minute);
     }
 
     /**
@@ -163,25 +157,25 @@ public class Timestamp implements Comparable<Timestamp> {
      * @param args command-line arguments, not used.
      */
     public static void main(String[] args) {
-        System.out.println(testCompareTo("Test case #1",
+        System.out.println(compareToTestResult("Test case #1",
                 new Timestamp("2026-03-09", "10:48"),
                 new Timestamp("2026-03-10", "10:48"), BEFORE));
-        System.out.println(testCompareTo("Test case #2",
+        System.out.println(compareToTestResult("Test case #2",
                 new Timestamp("2026-03-09", "09:59"),
                 new Timestamp("2026-03-09", "10:00"), BEFORE));
-        System.out.println(testCompareTo("Test case #3",
+        System.out.println(compareToTestResult("Test case #3",
                 new Timestamp("2026-03-09", "10:47"),
                 new Timestamp("2026-03-09", "10:48"), BEFORE));
-        System.out.println(testCompareTo("Test case #4",
+        System.out.println(compareToTestResult("Test case #4",
                 new Timestamp("2027-01-01", "00:00"),
                 new Timestamp("2026-12-31", "23:59"), AFTER));
-        System.out.println(testCompareTo("Test case #5",
+        System.out.println(compareToTestResult("Test case #5",
                 new Timestamp("2026-03-09", "18:30"),
                 new Timestamp("2026-03-09", "06:30"), AFTER));
-        System.out.println(testCompareTo("Test case #6",
+        System.out.println(compareToTestResult("Test case #6",
                 new Timestamp("2026-03-09", "10:49"),
                 new Timestamp("2026-03-09", "10:48"), AFTER));
-        System.out.println(testCompareTo("Test case #7",
+        System.out.println(compareToTestResult("Test case #7",
                 new Timestamp("2026-03-09", "10:48"),
                 new Timestamp("2026-03-09", "10:48"), SAME));
     }

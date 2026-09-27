@@ -71,14 +71,6 @@ public class Vehicle {
     }
 
     /**
-     * Get the head of the parking history list.
-     * @return the first node of the history; null if there is no history.
-     */
-    public History getHistory() {
-        return history;
-    }
-
-    /**
      * Check if the vehicle has any parking history.
      * @return true if the vehicle has a parking history; false otherwise.
      */

@@ -42,14 +42,6 @@ public class Parking {
     }
 
     /**
-     * Get the timestamp when the vehicle exited the deck.
-     * @return the exit timestamp; null if the vehicle has not exited.
-     */
-    public Timestamp getExit() {
-        return exit;
-    }
-
-    /**
      * Record the timestamp when the vehicle exited the deck.
      * @param exit the exit timestamp.
      */

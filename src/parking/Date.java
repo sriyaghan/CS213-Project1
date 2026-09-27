@@ -82,18 +82,6 @@ public class Date implements Comparable<Date> {
     }
 
     /**
-     * Create a date with the given year, month, and day.
-     * @param year the year of the date.
-     * @param month the month of the date, from 1 to 12.
-     * @param day the day of the month.
-     */
-    public Date(int year, int month, int day) {
-        this.year = year;
-        this.month = month;
-        this.day = day;
-    }
-
-    /**
      * Check if the given year is a leap year.
      * @param calendarYear the year to check.
      * @return true if the year is a leap year; false otherwise.
@@ -131,7 +119,7 @@ public class Date implements Comparable<Date> {
      * @param otherValue the value of the other date.
      * @return -1 if value is smaller, 1 if value is larger, 0 if equal.
      */
-    private static int compareValues(int value, int otherValue) {
+    private static int valueOrder(int value, int otherValue) {
         if (value < otherValue) {
             return BEFORE;
         }
@@ -148,8 +136,9 @@ public class Date implements Comparable<Date> {
      * @param expected the expected result of isValid().
      * @return the description and the result of the test case.
      */
-    private static String testIsValid(String testCase, String input,
-                                    boolean expected) {
+    private static String isValidTestResult(String testCase,
+                                            String input,
+                                            boolean expected) {
         boolean actual = new Date(input).isValid();
         String result = (actual == expected) ? "PASSED" : "FAILED";
         return testCase + ": isValid() on " + input
@@ -219,12 +208,12 @@ public class Date implements Comparable<Date> {
     @Override
     public int compareTo(Date date) {
         if (year != date.year) {
-            return compareValues(year, date.year);
+            return valueOrder(year, date.year);
         }
         if (month != date.month) {
-            return compareValues(month, date.month);
+            return valueOrder(month, date.month);
         }
-        return compareValues(day, date.day);
+        return valueOrder(day, date.day);
     }
 
     /**
@@ -233,11 +222,17 @@ public class Date implements Comparable<Date> {
      * @param args command-line arguments, not used.
      */
     public static void main(String[] args) {
-        System.out.println(testIsValid("Test case #1", "2026-13-09", false));
-        System.out.println(testIsValid("Test case #2", "2026-04-31", false));
-        System.out.println(testIsValid("Test case #3", "2026-02-29", false));
-        System.out.println(testIsValid("Test case #4", "1900-02-29", false));
-        System.out.println(testIsValid("Test case #5", "2000-02-29", true));
-        System.out.println(testIsValid("Test case #6", "2026-03-31", true));
+        System.out.println(isValidTestResult("Test case #1", "2026-13-09",
+                false));
+        System.out.println(isValidTestResult("Test case #2", "2026-04-31",
+                false));
+        System.out.println(isValidTestResult("Test case #3", "2026-02-29",
+                false));
+        System.out.println(isValidTestResult("Test case #4", "1900-02-29",
+                false));
+        System.out.println(isValidTestResult("Test case #5", "2000-02-29",
+                true));
+        System.out.println(isValidTestResult("Test case #6", "2026-03-31",
+                true));
     }
 }
