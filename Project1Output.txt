@@ -1,0 +1,279 @@
+Parking Management System is in operation.
+
+a is an invalid command!
+r is an invalid command!
+o is an invalid command!
+c is an invalid command!
+e is an invalid command!
+x is an invalid command!
+p is an invalid command!
+pp is an invalid command!
+pd is an invalid command!
+ph is an invalid command!
+Vehicle list is empty - no vehicle is registered.
+Deck list is empty - no deck is open.
+Deck list is empty - no deck is open.
+122-KVQ - invalid license plate format.
+ZZ2-KVQ - invalid license plate format.
+Z2Z-KVQ - invalid license plate format.
+Z222KVQ - invalid license plate format.
+Z22-1VQ - invalid license plate format.
+Z22-K1Q - invalid license plate format.
+Z22-KV1 - invalid license plate format.
+Z22aKVQ - invalid license plate format.
+?22-KVQ - invalid license plate format.
+Z22-KV# - invalid license plate format.
+Z22-!VQ - invalid license plate format.
+Z22-K-Q - invalid license plate format.
+Z22-KVQQ - invalid license plate format.
+Z22-KVQ registered.
+Z22-KVQ is already registered.
+z22-kvq is already registered.
+** List of registered vehicles, ordered by license plate **
+Z22-KVQ
+** end of list **
+Z23-KVQ does not exist; cannot be unregistered.
+Z22-KVQ unregistered.
+Z22-KVQ does not exist; cannot be unregistered.
+Vehicle list is empty - no vehicle is registered.
+Z22-KVQ registered.
+E38-BYP registered.
+G81-HIA registered.
+R31-QTU registered.
+H85-GMQ registered.
+M23-RCY registered.
+Z22-IVE registered.
+F25-SZF registered.
+I84-GPA registered.
+V36-GJE registered.
+O76-QQC registered.
+R48-JIK registered.
+G33-TWM registered.
+V88-WCR registered.
+U41-QRG registered.
+C84-LJH registered.
+X75-AKB registered.
+Z89-XVE registered.
+** List of registered vehicles, ordered by license plate **
+C84-LJH
+E38-BYP
+F25-SZF
+G33-TWM
+G81-HIA
+H85-GMQ
+I84-GPA
+M23-RCY
+O76-QQC
+R31-QTU
+R48-JIK
+U41-QRG
+V36-GJE
+V88-WCR
+X75-AKB
+Z22-IVE
+Z22-KVQ
+Z89-XVE
+** end of list **
+A100 - invalid deck number.
+100B - invalid deck number.
+bridgewate - invalid location.
+hr1 - invalid operation hours
+7 - exceeds the maximum deck capacity 6
+ab2 - invalid capacity; it's not an integer.
+Deck#100 opened.
+Deck#100 - is already open.
+Deck#200 opened.
+Deck#300 opened.
+Deck#234 opened.
+Deck#111 opened.
+Deck#110 opened.
+Deck#301 opened.
+Deck#2 opened.
+Deck#311 opened.
+Deck#9 opened.
+Error opening Deck#8 - missing data tokens.
+** List of decks, ordered by county/deck number **
+Deck#9@PRINCETON[open 5:00 ~ 21:30] [capacity 4] [0 vehicles] [Mercer]
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [0 vehicles] [Union]
+Deck#311@CLARK[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Union]
+** end of list **
+XXX - invalid deck number; it contains characters.
+Deck#302 - does not exist.
+Deck#301 - closed.
+Deck#301 - is already closed.
+Deck#110 - closed.
+Deck#111 - closed.
+** List of decks, ordered by county/deck number **
+Deck#9@PRINCETON[open 5:00 ~ 21:30] [capacity 4] [0 vehicles] [Mercer]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#311@CLARK[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Union]
+** end of list **
+Deck#110 - was closed, now reopened.
+Deck#111 - was closed, now reopened.
+Deck#301 - was closed, now reopened.
+Error opening Deck#400 - missing data tokens.
+** List of decks, ordered by county/deck number **
+Deck#9@PRINCETON[open 5:00 ~ 21:30] [capacity 4] [0 vehicles] [Mercer]
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [0 vehicles] [Union]
+Deck#311@CLARK[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Union]
+** end of list **
+11x - invalid deck number; it contains characters.
+Deck#112 - does not exist.
+Deck#110 - closed.
+Deck#110 - is closed for parking.
+Deck#110 - was closed, now reopened.
+RR8-JIK - invalid license plate format.
+x48-JIK - is not registered.
+24 - invalid hour.
+60 - invalid minute.
+Error entering - not within the operating hours: 5:00 ~ 21:30
+Error entering - not within the operating hours: 6:30 ~ 18:30
+Error entering - not within the operating hours: 6:30 ~ 18:30
+Error entering - not within the operating hours: 6:30 ~ 18:30
+2026-00-09 - invalid calendar date.
+2026-13-09 - invalid calendar date.
+2026-02-29 - invalid calendar date.
+2026-03-32 - invalid calendar date.
+2026-04-31 - invalid calendar date.
+R48-JIK entered Deck#110 on 2026-03-09 10:48
+Error entering - R48-JIK is already in a deck.
+U41-QRG entered Deck#110 on 2026-03-09 10:49
+Deck#110 - is full.
+Cannot be unregistered - R48-JIK is in a deck.
+Error exiting - X75-AKB is not in a deck.
+Xx5-AKB - invalid license plate format.
+Error exiting - X75-eKB is not in a deck.
+24 - invalid hour.
+60 - invalid minute.
+Error exiting - not within the operating hours: 5:00 ~ 21:30
+Error exiting - not within the operating hours: 5:00 ~ 21:30
+Error exiting - not within the operating hours: 5:00 ~ 21:30
+Exiting time 2026-03-09 09:50 before entering time 2026-03-09 10:48
+Deck#110 - is full.
+R48-JIK exited Deck#110 on 2026-03-09 11:50
+Error exiting - R48-JIK is not in a deck.
+Cannot be unregistered - R48-JIK has parking history.
+C84-LJH entered Deck#234 on 2026-03-09 13:30
+Error exiting - not within the operating hours: 6:30 ~ 18:30
+Invalid exiting time - exceeds two days.
+C84-LJH exited Deck#234 on 2026-03-09 18:20
+** List of decks, ordered by county/deck number **
+Deck#9@PRINCETON[open 5:00 ~ 21:30] [capacity 4] [0 vehicles] [Mercer]
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [1 vehicle] [Union]
+Deck#311@CLARK[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Union]
+** end of list **
+RX8-JIK - invalid license plate format.
+R48-JIX does not exist.
+** Parking history for R48-JIK**
+R48-JIK [entered: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+** end of list **
+U41-QRG exited Deck#110 on 2026-03-10 10:00
+Z22-KVQ entered Deck#300 on 2026-03-10 20:08
+Error exiting - U41-QRG is not in a deck.
+Z22-KVQ exited Deck#300 on 2026-03-11 10:30
+E38-BYP entered Deck#300 on 2026-03-28 21:00
+G81-HIA entered Deck#300 on 2026-03-30 12:15
+R31-QTU entered Deck#300 on 2026-03-30 16:25
+R31-QTU exited Deck#300 on 2026-03-30 18:25
+Error entering - not within the operating hours: 6:30 ~ 18:30
+Error entering - not within the operating hours: 5:00 ~ 21:30
+Z22-KVQ entered Deck#301 on 2026-04-12 10:39
+H85-GMQ entered Deck#301 on 2026-04-12 12:30
+M23-RCY entered Deck#301 on 2026-04-12 14:05
+Z22-KVQ exited Deck#301 on 2026-04-12 16:39
+M23-RCY exited Deck#301 on 2026-04-12 18:30
+V36-GJE entered Deck#100 on 2026-04-17 09:12
+U41-QRG entered Deck#100 on 2026-04-17 11:11
+Z22-KVQ entered Deck#100 on 2026-04-17 11:12
+R48-JIK entered Deck#100 on 2026-04-17 16:58
+V36-GJE exited Deck#100 on 2026-04-17 17:55
+R48-JIK exited Deck#100 on 2026-04-18 12:00
+V88-WCR entered Deck#200 on 2026-05-09 18:00
+Z89-XVE entered Deck#111 on 2026-05-20 05:52
+F25-SZF entered Deck#111 on 2026-05-22 16:12
+R48-JIK entered Deck#200 on 2026-05-28 10:00
+R48-JIK exited Deck#200 on 2026-05-28 17:25
+M23-RCY entered Deck#200 on 2026-06-01 07:00
+R48-JIK entered Deck#2 on 2026-06-04 14:53
+G33-TWM entered Deck#2 on 2026-06-13 10:03
+I84-GPA entered Deck#234 on 2026-06-17 12:55
+V36-GJE entered Deck#100 on 2026-06-19 07:55
+Error entering - V36-GJE is already in a deck.
+O76-QQC entered Deck#110 on 2026-07-02 07:00
+X75-AKB entered Deck#2 on 2026-07-11 15:15
+R31-QTU entered Deck#300 on 2026-07-12 10:15
+Deck#300 - is full.
+** List of decks, ordered by county/deck number **
+Deck#9@PRINCETON[open 5:00 ~ 21:30] [capacity 4] [0 vehicles] [Mercer]
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [1 vehicle] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [2 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [1 vehicle] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [3 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [3 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [3 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [2 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [1 vehicle] [Union]
+Deck#311@CLARK[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Union]
+** end of list **
+** List of vehicles in Deck# 100, ordered by plate **
+U41-QRG [entered: 2026-04-17 11:11][exited: null]
+V36-GJE [entered: 2026-06-19 07:55][exited: null]
+Z22-KVQ [entered: 2026-04-17 11:12][exited: null]
+** end of list **
+** List of vehicles in Deck# 300, ordered by plate **
+E38-BYP [entered: 2026-03-28 21:00][exited: null]
+G81-HIA [entered: 2026-03-30 12:15][exited: null]
+R31-QTU [entered: 2026-07-12 10:15][exited: null]
+** end of list **
+** List of vehicles in Deck# 234, ordered by plate **
+I84-GPA [entered: 2026-06-17 12:55][exited: null]
+** end of list **
+** Parking history for Z22-KVQ**
+Z22-KVQ [entered: 2026-04-12 10:39][exited: 2026-04-12 16:39]
+Z22-KVQ [entered: 2026-03-10 20:08][exited: 2026-03-11 10:30]
+** end of list **
+** Parking history for R48-JIK**
+R48-JIK [entered: 2026-05-28 10:00][exited: 2026-05-28 17:25]
+R48-JIK [entered: 2026-04-17 16:58][exited: 2026-04-18 12:00]
+R48-JIK [entered: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+** end of list **
+F25-SZF - no parking history.
+** Parking history for all vehicles, ordered by plate/timestamp **
+C84-LJH [entered: 2026-03-09 13:30][exited: 2026-03-09 18:20]
+M23-RCY [entered: 2026-04-12 14:05][exited: 2026-04-12 18:30]
+R31-QTU [entered: 2026-03-30 16:25][exited: 2026-03-30 18:25]
+R48-JIK [entered: 2026-05-28 10:00][exited: 2026-05-28 17:25]
+R48-JIK [entered: 2026-04-17 16:58][exited: 2026-04-18 12:00]
+R48-JIK [entered: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+U41-QRG [entered: 2026-03-09 10:49][exited: 2026-03-10 10:00]
+V36-GJE [entered: 2026-04-17 09:12][exited: 2026-04-17 17:55]
+Z22-KVQ [entered: 2026-04-12 10:39][exited: 2026-04-12 16:39]
+Z22-KVQ [entered: 2026-03-10 20:08][exited: 2026-03-11 10:30]
+** end of parking history **
+q is an invalid command!
+Parking Management System is terminated.
